@@ -1,0 +1,6 @@
+{
+	"login": "User_simple",
+	"password": "123",
+	"info": "Trinity (White Rabbit)",
+	"role": 2
+}

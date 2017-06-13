@@ -1,0 +1,6 @@
+{
+"login": "New_user",
+"password": "123",
+"info": "fdfasd",
+"role": "3"
+}

@@ -1,0 +1,6 @@
+{
+	"login": "Admin",
+	"password": "MyPas",
+	"info": "Mr Smith",
+	"role": 1 
+}
