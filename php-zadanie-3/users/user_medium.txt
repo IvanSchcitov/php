@@ -1,0 +1,6 @@
+{
+	"login": "User_medium",
+	"password": "abc123",
+	"info": "Morpheus (unknown)",
+	"role": 3
+}

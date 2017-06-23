@@ -1,0 +1,6 @@
+{
+	"login": "User_hard",
+	"password": "AbC123",
+	"info": "Neo (Tomas A. Anderson)",
+	"role": 4
+}
