@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Хост: 127.0.0.1:3306
--- Время создания: Июл 27 2017 г., 15:31
+-- Время создания: Июл 27 2017 г., 18:06
 -- Версия сервера: 5.5.53
 -- Версия PHP: 5.6.29
 
@@ -19,8 +19,6 @@ SET time_zone = "+00:00";
 --
 -- База данных: `bdblog`
 --
-CREATE DATABASE IF NOT EXISTS `bdblog` DEFAULT CHARACTER SET utf8 COLLATE utf8_unicode_ci;
-USE `bdblog`;
 
 -- --------------------------------------------------------
 
@@ -39,10 +37,10 @@ CREATE TABLE `migrations` (
 --
 
 INSERT INTO `migrations` (`id`, `migration`, `batch`) VALUES
-(47, '2014_10_12_000000_create_users_table', 1),
-(48, '2014_10_12_100000_create_password_resets_table', 1),
-(49, '2017_07_24_171844_create_posts', 1),
-(50, '2017_07_25_105010_update_post_table', 1);
+(71, '2014_10_12_000000_create_users_table', 1),
+(72, '2014_10_12_100000_create_password_resets_table', 1),
+(73, '2017_07_24_171844_create_posts', 1),
+(74, '2017_07_25_105010_update_post_table', 1);
 
 -- --------------------------------------------------------
 
@@ -103,9 +101,9 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `name`, `email`, `password`, `role`, `remember_token`, `created_at`, `updated_at`) VALUES
-(1, 'Admin', 'a@a.ru', '123', 1, NULL, NULL, NULL),
-(2, 'User1', 'a1@a1.ru', '123', 2, NULL, NULL, NULL),
-(3, 'User2', 'a2@a2.ru', '123', 2, NULL, NULL, NULL);
+(1, 'Admin', 'a@a.ru', '$2y$10$Zldk9kXB3PlJgZ65INqs5.eY6su3wDiCPDHaDw0DgNiCCYcOeHFJS', 1, 'KbMHf3x3ssZWG748RHIOF2bPG7a4otQ9hslGi2HfIGWnGsf6adzeQKkMKasB', NULL, NULL),
+(2, 'User1', 'a1@a1.ru', '$2y$10$5oYs4O6LadK.gGax31hihOe0krD1WmrkdgVACZcYwSBNsNC3yuhyC', 2, NULL, NULL, NULL),
+(3, 'User2', 'a2@a2.ru', '$2y$10$GA/Lpf9coESMT2kQVd0psuZuAqjOvOh1QlFSVyx0ulCcRPBTb8nhi', 2, NULL, NULL, NULL);
 
 --
 -- Индексы сохранённых таблиц
@@ -144,7 +142,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT для таблицы `migrations`
 --
 ALTER TABLE `migrations`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=51;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=75;
 --
 -- AUTO_INCREMENT для таблицы `posts`
 --
