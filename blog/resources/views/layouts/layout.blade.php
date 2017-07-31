@@ -24,13 +24,7 @@
 
 <div class="jumbotron">
     <div class="container">
-        <h1>Hello, it is new blog</h1>
-    </div>
-    <div class="container">
-        <div class="top-right links">
-            <a href="http://blog/login">Login</a>
-            <a href="http://blog/register">Register</a>
-        </div>
+        <h1>Сайт, где водятся блоги</h1>
     </div>
 </div>
 <div class="container">

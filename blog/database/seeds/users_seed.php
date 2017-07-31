@@ -15,20 +15,23 @@ class users_seed extends Seeder
             array(
                 [
                     'name' => 'Admin',
-                    'email' => 'a@a.ru',
-                    'password' => '$2y$10$Zldk9kXB3PlJgZ65INqs5.eY6su3wDiCPDHaDw0DgNiCCYcOeHFJS',
+                    'email' => 'joody97@yandex.ru',
+                    //'password' => '$2y$10$Zldk9kXB3PlJgZ65INqs5.eY6su3wDiCPDHaDw0DgNiCCYcOeHFJS',
+                    'password' => Hash::make('123456'),
                     'role' => '1'
                 ],
                 [
-                    'name' => 'User1',
-                    'email' => 'a1@a1.ru',
-                    'password' => '$2y$10$5oYs4O6LadK.gGax31hihOe0krD1WmrkdgVACZcYwSBNsNC3yuhyC',
+                    'name' => 'Sam',
+                    'email' => 'sam61@rambler.ru',
+//                    'password' => '$2y$10$5oYs4O6LadK.gGax31hihOe0krD1WmrkdgVACZcYwSBNsNC3yuhyC',
+                    'password' => Hash::make('123456'),
                     'role' => '2'
                 ],
                 [
-                    'name' => 'User2',
-                    'email' => 'a2@a2.ru',
-                    'password' => '$2y$10$GA/Lpf9coESMT2kQVd0psuZuAqjOvOh1QlFSVyx0ulCcRPBTb8nhi',
+                    'name' => 'Margaret',
+                    'email' => 'miss_butterfly@google.com',
+//                    'password' => '$2y$10$GA/Lpf9coESMT2kQVd0psuZuAqjOvOh1QlFSVyx0ulCcRPBTb8nhi',
+                    'password' => Hash::make('123456'),
                     'role' => '2'
                 ]
             )
